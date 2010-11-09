@@ -1,18 +1,4 @@
-.netTiers v2.3.0.853
-10/29/2010
-        - [Issue 349] Stored procedures can cause a not in the expected format error (Contrib: xkubr)
-10/22/2010
-	- Fixed a bug with ComponentPattern being set incorrectly.
-9/2/2010
-	- Fixed a bug with the ProviderInvariantName
-7/22/2010
-	- Fixed but with VS 2010 Support and WCFAttributes property
-7/21/2010
-	- Fixed a bug where the StoredProceduresXml template could throw a NullReferenceException if SourceViews was null.
-        - Fixed a bug where  GetPagedHelper didn't support Binary columns so GetPaged and Dynamic Find methods would be incorrect on tables with binary pk's.
-7/20/2010
-	- Added EntLib 5 Support.  Took out 4.1 support since 5.0 has the same requirements.
-	- Fixed some compiler warnings
+.netTiers v2.3.0.847
 6/30/2010
 	- Removed AsIndexedEnumerable support.
 6/29/2010

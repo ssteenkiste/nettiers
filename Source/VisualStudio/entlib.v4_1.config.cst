@@ -1,8 +1,6 @@
 ﻿<%@ CodeTemplate Language="C#" TargetLanguage="XML" Description="EntLibConfiguration file." Debug="true" ResponseEncoding="UTF-8"  NoWarn="0108,0618,1572,1573,1574,0162,2002" %>
 <%@ Property Name="NameSpace" Type="System.String" Category="Data" Description="Namespace." %>
 <%@ Property Name="BLLNameSpace" Type="System.String" Category="Data" Description="BLL Namespace." %>
-<%@ Property Name="EntLibVersion" Type="MoM.Templates.EntLibVersion" Default="v5_0" Category="02. Framework Generation - Optional" Description="Indicates the Enterprise Library version to use. Options include v3.1, v5.0" %>
-
 <configuration>
 	<configSections>
 		<section name="securityConfiguration" type="Microsoft.Practices.EnterpriseLibrary.Security.Configuration.SecuritySettings, Microsoft.Practices.EnterpriseLibrary.Security, Version=4.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
